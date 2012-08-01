@@ -1,5 +1,11 @@
 .hero {
-  background: url("../images/homepage-background.jpg") repeat-x center center;
+  background: url("../images/homepage-background.png") repeat-x center center;
+}
+
+.masthead .header-image .logo {
+  background: url("../images/logo.png") repeat-x center center;
+  background-position: left top ;
+  background-repeat: no-repeat ;
 }
 
 

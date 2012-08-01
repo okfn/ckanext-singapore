@@ -1,0 +1,6 @@
+{% ckan_extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{% url_for_static '/css/demo.css' %}" />
+{% endblock %}
